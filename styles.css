@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: 'Figtree';
+    max-width: 100%;
+    height: auto;
+}
+
+html, body {
+    background-color: #F4D04E;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 385px;
+    min-width: 327px;
+    padding: 24px;
+    border-radius: 20px;
+    margin: 24px;
+    border: 1px solid #111111;
+    box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.illustration {
+    border-radius: 10px;
+}
+
+.text-container {
+    display: inline;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.category {
+    background-color: #F4D04E;
+    width: max-content;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: 800;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0;
+}
+
+.date {
+    font-size: 14px;
+    line-height: 150%;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+h1:hover {
+    color:#F4D04E;
+    cursor: pointer;
+}
+
+.text-content {
+    font-size: 16px;
+    color: #6B6B6B;
+    line-height: 150%;
+    margin: 0;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    height: max-content;
+    gap: 12px;
+}
+
+.author-pic {
+    height: 32px;
+    width: 32px;
+}
+
+.author-name {
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 150%;
+    margin: 0;
+}
+
+@media (max-width: 376px) {
+    .category {
+        font-size: 12px;
+    }
+
+    .date {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .text-content {
+        font-size: 14px;
+    }
+
+}
+
+
+
